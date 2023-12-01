@@ -1,7 +1,12 @@
+import Nav from "./components/Nav";
+import Hero from "./sections/Hero";
+
 const App = () => {
   return (
-    <main>Hello, Me</main>
-  )
-}
+    <main className="relative">
+      <Nav />
+    </main>
+  );
+};
 
-export default App
+export default App;
