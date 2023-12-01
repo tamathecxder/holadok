@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+    scroll-behavior: smooth;
+}
+
+@layer utilities {
+    .padding-x {
+        @apply sm:px-[150] px-20
+    }
+}
