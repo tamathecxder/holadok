@@ -11,8 +11,18 @@
     scroll-behavior: smooth;
 }
 
+@layer components {
+    .btn-cta {
+        @apply px-5 py-2 transition-all hover:text-white active:bg-slate-800 hover:bg-primary
+    }
+}
+
 @layer utilities {
     .padding-x {
-        @apply sm:px-[150] px-20
+        @apply sm:px-[150] px-20;
     }
+
+    .padding-top {
+        @apply sm:pt-[58px] pt-[30px];
+    }   
 }
