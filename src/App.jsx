@@ -5,6 +5,9 @@ const App = () => {
   return (
     <main className="relative">
       <Nav />
+      <section className="padding-x">
+        <Hero />
+      </section>
     </main>
   );
 };
