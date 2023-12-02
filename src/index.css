@@ -28,11 +28,11 @@
 
 @layer utilities {
     .padding-x {
-        @apply sm:px-[150px];
+        @apply lg:px-[150px] px-16;
     }
 
     .padding-top {
-        @apply sm:pt-[40px];
+        @apply pt-[40px];
     }   
 
     .nav-active {
