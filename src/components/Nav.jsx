@@ -14,7 +14,7 @@ const Nav = () => {
               Holadok
             </a>
           </div>
-          <ul className="flex justify-center items-center gap-10">
+          <ul className="lg:flex justify-center items-center gap-10 hidden">
             <li>
               <a
                 href="#"
