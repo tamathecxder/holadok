@@ -13,7 +13,7 @@
 
 @layer components {
     .btn-cta {
-        @apply px-5 py-2 transition-all hover:text-white active:bg-slate-800 hover:bg-primary
+        @apply px-5 py-2 font-dmSans font-semibold text-base transition-all hover:text-white active:bg-slate-800 hover:bg-primary
     }
 }
 
@@ -23,6 +23,10 @@
     }
 
     .padding-top {
-        @apply sm:pt-[58px] pt-[30px];
+        @apply sm:pt-[30px] pt-[20px];
     }   
+
+    .nav-active {
+        @apply text-primary font-semibold;
+    }
 }
