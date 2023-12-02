@@ -15,15 +15,24 @@
     .btn-cta {
         @apply px-5 py-2 font-dmSans font-semibold text-base transition-all hover:text-white active:bg-slate-800 hover:bg-primary
     }
+
+    .btn-hero {
+        @apply px-8 py-4 font-dmSans font-semibold text-base transition-all text-white hover:text-white active:bg-slate-800 bg-primary hover:bg-slate-500
+    }
+
+    .max-container {
+        max-width: 1440px;
+        margin: 0 auto;
+    }  
 }
 
 @layer utilities {
     .padding-x {
-        @apply sm:px-[150] px-20;
+        @apply sm:px-[150px];
     }
 
     .padding-top {
-        @apply sm:pt-[30px] pt-[20px];
+        @apply sm:pt-[40px];
     }   
 
     .nav-active {
