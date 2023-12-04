@@ -28,7 +28,7 @@
 
 @layer utilities {
     .padding-x {
-        @apply lg:px-[150px] px-16;
+        @apply lg:px-[150px] px-5;
     }
 
     .padding-top {
