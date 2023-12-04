@@ -28,9 +28,9 @@ Before getting started, ensure you have Node.js and npm installed on your machin
 
 1.  Clone the repository:
 
-    ````bash
-    git clone https://github.com/your-username/holadok.git```
-    ````
+    ```bash
+    git clone https://github.com/your-username/holadok.git
+    ```
 
 2.  Navigate to the project directory:
 
@@ -46,10 +46,10 @@ Before getting started, ensure you have Node.js and npm installed on your machin
 
 4.  Usage
     To run the development server:
-
-        ```bash
-        npm run dev
-        ```
+    
+    ```bash
+    npm run dev
+    ```
 
 Visit http://localhost:3000 in your browser to view the application.
 
