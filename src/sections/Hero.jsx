@@ -30,7 +30,7 @@ const Hero = () => {
         />
       </div>
       <div className="hidden lg:block absolute top-4 -right-4 w-[440px] z-[-2] h-[780px] bg-info -skew-x-[7deg]"></div>
-      <div className="flex justify-between items-start lg:items-center sm:gap-5 gap-10 lg:flex-row flex-col p-10 bg-primary text-white mb-8 mt-20 sm:mt-40">
+      <div className="flex justify-between items-start lg:items-center sm:gap-5 gap-10 lg:flex-row flex-col py-10 px-5 sm:px-10 sm:py-10  bg-primary text-white mb-8 mt-20 sm:mt-40">
         <div className="flex flex-row justify-start gap-4">
           <div className="bg-cover bg-center w-10">
             <img
